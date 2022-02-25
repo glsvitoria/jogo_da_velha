@@ -1,0 +1,145 @@
+* {
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.container_second{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 4.2rem;
+}
+
+/*=== BUTTONS ===*/
+#buttons_container button {
+    padding: 1rem 1.5rem;
+    margin: 0 1rem;
+}
+
+/*=== GAME ===*/
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 30rem;
+}
+
+.box {
+    height: 10rem;
+    border: .5rem solid black;
+    flex: 1 1 33%;
+}
+
+#block_1, #block_2, #block_3 {
+    border-top: none;
+}
+
+#block_1, #block_4, #block_7 {
+    border-left: none;
+}
+
+#block_7, #block_8, #block_9 {
+    border-bottom: none;
+}
+
+#block_3, #block_6, #block_9 {
+    border-right: none;
+}
+
+/*=== SYMBOLS ===*/
+
+.x {
+    font-size: 6.5rem;
+    color: red;
+    display: inline-block;
+    line-height: 10rem;
+}
+
+.o {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+
+    border: .5rem solid green;
+    border-radius: 50%;
+
+    margin-top: 1.7rem;
+}
+
+/*=== HIDE'S CLASS ===*/
+/*.hide {
+    display: none !important;
+}*/
+
+/*=== GAME BOARD ===*/
+#scoreboard_container {
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.score_box {
+    margin: 0 2rem;
+}
+
+#x_scoreboard {
+    color: red;
+    margin-right: .3rem;
+}
+
+#o_scoreboard {
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    border: .2rem solid green;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+
+/*=== VICTORY MESSAGE ===*/
+#message p {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+
+    left: 0;
+    right: 0;
+    top: 15rem;
+    width: 50rem;
+    padding: 2rem;
+    
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+
+    display: none;
+}
+

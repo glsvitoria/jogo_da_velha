@@ -27,7 +27,7 @@
  3. Após clonar o projeto, basta apenas abrir o html principal do site e utilizar as suas funcionalidades
 
 ### Screenshot
-![](./public/images/Screenshot.PNG)
+![](./assets/Screenshot.PNG)
 ### Links
 - Site hospedado: [Jogo da Velha](https://glsvitoria.github.io/jogo_da_velha/)
 

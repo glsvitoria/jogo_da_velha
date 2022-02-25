@@ -91,9 +91,9 @@ h1 {
 }
 
 /*=== HIDE'S CLASS ===*/
-/*.hide {
+.hide {
     display: none !important;
-}*/
+}
 
 /*=== GAME BOARD ===*/
 #scoreboard_container {
@@ -139,7 +139,4 @@ h1 {
     background-color: black;
     color: white;
     font-size: 5rem;
-
-    display: none;
 }
-
